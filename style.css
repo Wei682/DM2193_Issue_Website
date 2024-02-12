@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body{
+    background-image: linear-gradient(white, white, #79BDDA);
+	background-size: cover;
+    margin: 0px;
+    font-size: 22px;
+    color: #524A26;
+    letter-spacing: 0.5px;
+}
+
+.actionBody{
+	height: 100vh;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+.navigation{
+	background-color:#65A5D1;
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.navlink{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	font-size: 25px;
+	padding: 8px;
+}
+
+.navlink a{
+	font-weight: bold;
+	color: white;
+}
+
+#homeCurr a, #issueCurr a, #actionCurr a{
+	color: #524A26;
+}
+
+.mainContainer{
+	padding-top:42px;
+	z-index: -1;
+}
+
+.topic{
+	margin-top: 0px;
+	vertical-align: middle;
+}
+
+.topicLeft{
+	display: inline-block;
+	width: 55%;
+    margin-right: 5%;
+}
+
+.topicImage{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.topicRight{
+	display: inline-block;
+	width: 30%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Kalam', cursive;
+    font-size: 36px;
+}
+
+.data1{
+	margin-top: 35px;
+	font-size: 25px;
+	padding-left: 8%;
+}
+
+.data2{
+	font-size: 25px;
+	padding-left: 40%;
+	padding-right: 8%;
+	font-family: 'Kalam', cursive;
+    font-size: 36px;
+}
+
+.intro{
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+.introLeft{
+	display: inline-block;
+	margin-left: 8%;
+	box-sizing: border-box;
+	width: 30%;
+    margin-right: 5%;
+    background-color: #524A26;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.introRight{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 49%;
+	background-color: #86F0C2;
+	padding: 20px;
+	vertical-align: middle;
+}
+
+.subPageMainContent{
+	padding:50px;
+	z-index: -1;
+}
+
+.imageContainer{
+	text-align: center;
+}
+
+.statsImage{
+	width: 500px;
+	text-align: center;
+}
+
+.videoContainer{
+	text-align: center;
+}
+
+.cleanWaterAction{
+	vertical-align: middle;
+	background-color: #C0DDB8;
+}
+
+.CWATextContainer{
+	padding-left: 30px;
+	display: inline-block;
+	width: 60%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.CWAImgContainer{
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.cleanWaterActionImg{
+	width: 100%;
+}
